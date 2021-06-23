@@ -24,22 +24,27 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#Cards">Cards</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Videos">Videos</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Redes Sociais
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Github</a></li>
-                  <li><a class="dropdown-item" href="#">LinkedIn</a></li>
+                  <li><a class="dropdown-item" href="https://github.com/Ricardoamvp" target="_blank">Github</a></li>
+                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/ramvp/" target="_blank">LinkedIn</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#Direitos">Direitos</a></li>
                 </ul>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contato">Contato</a>
               <!--
               <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -48,7 +53,7 @@
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-outline-dark" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -56,8 +61,7 @@
 <!--/Navbar-->
 
 <!--Carrousel-->
-<!--
-<div class="p-30">-->
+<div class="mt-40">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -84,12 +88,12 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      
+</div>
 <!--/Carrousel-->
 
 <!--Cards-->
 <div class="container">
-    <div class="row row-cols-1 row-cols-md-3 g-4  mt-5 md-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4  mt-5 md-5" id="Cards">
         <div class="col">
           <div class="card h-100" style="background-color: #186411;">
             <img src="https://p2.trrsf.com/image/fget/cf/460/0/images.terra.com/2020/10/19/crash6.jpg" class="card-img-top" alt="...">
@@ -123,7 +127,7 @@
 
 <!--Video-->
 
-    <div class="row d-flex justify-content-center mt-5 mb-5">
+    <div class="row d-flex justify-content-center mt-5 mb-5" id="Videos">
         <div class="col-md-6">
             <h3>Texto Teste</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quidem atque alias ut facere expedita facilis, maxime consequatur incidunt placeat, neque doloribus officiis pariatur adipisci error provident quod unde. Ipsa. </p>
@@ -134,14 +138,45 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/7-IwwvIrawI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
-</div>
+
+    <div class="row d-flex justify-content-center mt-5 mb-5">
+        <div class="col-md-6">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/7-IwwvIrawI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-6">
+          <h3>Texto Teste</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quidem atque alias ut facere expedita facilis, maxime consequatur incidunt placeat, neque doloribus officiis pariatur adipisci error provident quod unde. Ipsa. </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quidem atque alias ut facere expedita facilis, maxime consequatur incidunt placeat, neque doloribus officiis pariatur adipisci error provident quod unde. Ipsa.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quidem atque alias ut facere expedita facilis, maxime consequatur incidunt placeat, neque doloribus officiis pariatur adipisci error provident quod unde. Ipsa.</p>
+      </div>
+  </div>
+
 <!--/Video-->
 
-    
+
+<!--Formulario-->
+
+<h3 style="text-align: center;" id="Contato">Entre em contato</h3>
+
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Nome</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Texto</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+
+<!--/Formulario-->
+  
+</div>
 
 <!--Footer-->
-<footer>
-
+<footer id="Direitos">
     <div class="row ">
         <div class="col-md-12 d-flex justify-content-center">
             <a href="https://github.com/Ricardoamvp" target="_blank">
